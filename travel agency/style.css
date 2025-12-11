@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eef6ff;
+}
+
+/* Header */
+header {
+    background: #0a4b8f;
+    padding: 15px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00c3ff;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Hero */
+.hero {
+    height: 60vh;
+    background: url('images/hero.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 20px;
+}
+
+.btn {
+    background: #0084ff;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Cards */
+.destinations, .packages, .gallery, .contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.destination-container, .package-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dest-card, .package-card {
+    width: 250px;
+    background: white;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.dest-card img, .package-card img, .gallery-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Gallery */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 250px;
+    margin: 10px;
+}
+
+/* Forms */
+form {
+    max-width: 350px;
+    margin: auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+#signupMsg, #loginMsg {
+    margin-top: 10px;
+    font-weight: bold;
+}
